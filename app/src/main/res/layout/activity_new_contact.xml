@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/contactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="22dp"
+        android:text="New Contact Name:"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp" />
+
+    <TextView
+        android:id="@+id/contactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/contactName"
+        android:layout_marginTop="139dp"
+        android:text="New Contact Number: "
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/contactKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/contactName"
+        android:layout_marginBottom="310dp"
+        android:text="New Contact Secret Key: "
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_alignLeft="@+id/contactName" />
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:background="@drawable/border"/>
+
+    <EditText
+        android:id="@+id/contact_number"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="188dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:background="@drawable/border"/>
+
+    <EditText
+        android:id="@+id/contact_key"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="245dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:background="@drawable/border"/>
+
+    <Button
+        android:id="@+id/btnAddContact"
+        android:layout_width="358dp"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:text="Add Contact"
+        android:textSize="25dp" />
+
+
+
+</RelativeLayout>
